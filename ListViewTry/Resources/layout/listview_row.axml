@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:weightSum="100">
+	<TextView
+		android:text="First Name"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_weight="24"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtName" />
+	<TextView
+		android:text="Last Name"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_weight="20"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtLastName" />
+	<TextView
+		android:text="Age"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_weight="30"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtAge" />
+	<TextView
+		android:text="Gender"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_weight="26"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtGender" />
+
+</LinearLayout>

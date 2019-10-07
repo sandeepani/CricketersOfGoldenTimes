@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="First Name"
+		android:textAppearance="?android:attr/textAppearanceSearchResultTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtName2" />
+	<TextView
+		android:text="Last Name"
+		android:textAppearance="?android:attr/textAppearanceSearchResultSubtitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtLastName2" />
+	<TextView
+		android:text="Age"
+		android:textAppearance="?android:attr/textAppearanceSearchResultSubtitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtAge2" />
+	<TextView
+		android:text="Gender"
+		android:textAppearance="?android:attr/textAppearanceSearchResultSubtitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtGender2" />
+	<TextView
+		android:text="Description"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/design_navigation_separator_vertical_padding"
+		android:id="@+id/txtDetails" />
+	<Button
+		android:text="Back to the list"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnPrevious" />
+
+</LinearLayout>
